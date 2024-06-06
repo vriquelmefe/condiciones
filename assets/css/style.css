@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logoVane{
+    box-sizing: content-box;
+   width: 30vw;
+    height: 30vh;
+    border-radius: 20px;
+    margin-left: 20px;
+    img{
+    margin-top: 20px;
+    width: 25vw;
+    height: 25vh;
+}
+}
+
+.titulo{
+    text-align: center;
+    padding: 2rem;
+}
+.nav{
+    padding: 3rem;
+color: white;
+    background-color: black;
+   a{
+    margin: 2rem;
+    color: white;
+    text-decoration: none;
+
+   }
+   a:hover{
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blueviolet;
+   }
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15vh;
+}
+.box{
+    display: grid;
+    input{
+        margin: 0 1em;
+        text-align: center;
+        height: 2rem;
+    }
+}
+.alertSticker{
+    text-align: center;
+    margin-top: 15vh;
+    button{
+        margin-top: .5rem;
+        padding: .3rem;
+    }
+}
+.ejercicioTres{
+    text-align: center;
+    margin-top: 3rem;
+    select{
+        margin: .5rem;
+    }
+    button{
+        margin-top: qrem;
+    }
+    p{
+        margin: 2rem;
+    }
+}
